@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>André Borges | CV</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js"></script>
+
+</head>
+
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#top">
+        <span class="brand__dot"></span>
+        <span>André Borges</span>
+      </a>
+
+      <nav class="menu" aria-label="Navegação">
+        <a href="#sobre">Sobre</a>
+        <a href="#competencias">Competências</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile" id="mobileMenu" aria-label="Menu mobile">
+      <a href="#sobre">Sobre</a>
+      <a href="#competencias">Competências</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </header>
+
+  <main id="top" class="container">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__left">
+        <p class="pill">CTO & Coordenador de Sistemas • MS Solutions</p>
+        <h1>Olá! Eu sou <span class="accent">André</span></h1>
+
+        <p class="subtitle">
+          Liderança técnica com visão estratégica: defino roadmap, coordeno sistemas e conecto necessidades do negócio
+          com soluções escaláveis. Atuação forte com integrações, governança, dados e produto.
+        </p>
+
+        <div class="cta">
+          <a class="btn btn--primary" href="#projetos">Ver Projetos</a>
+          <a class="btn btn--ghost" href="#contato">Falar Comigo</a>
+        </div>
+
+        <div class="meta">
+          <div class="meta__item">
+            <span class="meta__label">Foco</span>
+            <span class="meta__value">Liderança • Sistemas • Produto</span>
+          </div>
+          <div class="meta__item">
+            <span class="meta__label">Especialidade</span>
+            <span class="meta__value">Integrações • Operações • Dados</span>
+          </div>
+          <div class="meta__item">
+            <span class="meta__label">Atuação</span>
+            <span class="meta__value">Estratégia + Execução</span>
+          </div>
+        </div>
+
+        <!-- ✅ mini-cards movidos para BAIXO do meta -->
+        <div class="mini-cards mini-cards--left">
+          <div class="mini-card">
+            <p class="mini-card__title">Destaque</p>
+            <p class="mini-card__text">Elder Brain Analytics (EBA)</p>
+          </div>
+
+          <div class="mini-card">
+            <p class="mini-card__title">Perfil</p>
+            <p class="mini-card__text">Gestão de Sistemas e Integrações</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="avatar">
+          <div class="avatar__ring"></div>
+
+          <div class="avatar__face" aria-label="Foto do André">
+            <!-- ✅ caminho relativo -->
+            <img src="assets/foto-andre.png" alt="Foto do André" class="avatar__img">
+          </div>
+
+          <p class="avatar__hint">CTO & Coordenador de Sistemas • MS Solutions</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section">
+      <div class="section__head">
+        <h2>Sobre</h2>
+        <p>Uma visão direta sobre liderança, impacto e forma de trabalho.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Perfil de Liderança</h3>
+          <p>
+            Liderança técnica e coordenação de sistemas com visão estratégica: roadmap, governança, priorização e
+            alinhamento com objetivos de negócio.
+          </p>
+          <p class="muted">
+            Forte atuação com stakeholders, tomada de decisão orientada por dados e construção de soluções escaláveis.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Como Eu Lidero na Prática</h3>
+          <ul class="list">
+            <li>Defino visão e roadmap de evolução de sistemas com foco em resultados.</li>
+            <li>Mapeio processos críticos, removo gargalos e estabeleço padrões operacionais.</li>
+            <li>Prioritizo demandas com clareza (impacto x esforço), alinhando com áreas e gestão.</li>
+            <li>Transformo dados em decisões: métricas, relatórios e melhoria contínua.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Competências -->
+    <section id="competencias" class="section">
+      <div class="section__head">
+        <h2>Competências e Tecnologias</h2>
+        <p>Ferramentas e áreas de domínio aplicadas ao dia a dia (liderança + execução).</p>
+      </div>
+
+      <div class="card">
+        <div class="tags">
+          <span class="tag">Liderança Técnica</span>
+          <span class="tag">Roadmap & Priorização</span>
+          <span class="tag">Gestão de Stakeholders</span>
+          <span class="tag">Integrações via API</span>
+          <span class="tag">Governança e Processos</span>
+          <span class="tag">Dados e Métricas</span>
+          <span class="tag">Produto (Visão e Entrega)</span>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Cloud (AWS)</span>
+          <span class="tag">Google Workspace</span>
+          <span class="tag">Microsoft 365</span>
+          <span class="tag">Documentação Técnica</span>
+          <span class="tag">UX/UI (Base)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiência -->
+    <section id="experiencia" class="section">
+      <div class="section__head">
+        <h2>Experiência</h2>
+        <p>Histórico de evolução com foco em liderança, coordenação e impacto.</p>
+      </div>
+
+      <div class="card timeline">
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-top">
+              <h3>MS Solutions</h3>
+              <span class="pill pill--soft">CTO & Coordenador de Sistemas • Jul/2025 – Atual</span>
+            </div>
+            <p class="muted">
+              Definição de visão tecnológica e roadmap de sistemas; mapeamento de processos críticos; alinhamento com
+              gestão e áreas estratégicas; priorização de iniciativas e suporte a decisões orientadas por dados.
+            </p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-top">
+              <h3>MS Solutions</h3>
+              <span class="pill pill--soft">Consultor de Operações e Sistemas (PL) • Jun/2024 – Jul/2025</span>
+            </div>
+            <p class="muted">
+              Ponte entre negócio/operação e desenvolvimento; liderança na proposição de melhorias, correções críticas e
+              evoluções com foco em estabilidade, performance e integração entre áreas.
+            </p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-top">
+              <h3>MS Solutions</h3>
+              <span class="pill pill--soft">Coordenador de Operações (JR) • Set/2023 – Jun/2024</span>
+            </div>
+            <p class="muted">
+              Coordenação operacional e padronização de processos; organização de prioridades; melhoria de fluxos e suporte
+              à eficiência operacional.
+            </p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-top">
+              <h3>MS Solutions</h3>
+              <span class="pill pill--soft">Estagiário de Sistemas • Mar/2023 – Ago/2023</span>
+            </div>
+            <p class="muted">
+              Suporte a plataformas internas e rotinas operacionais; participação em melhorias de sistemas e suporte a integrações.
+            </p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-top">
+              <h3>Liderança & Comunidade</h3>
+              <span class="pill pill--soft">DIO Campus Expert (Embaixador)</span>
+            </div>
+            <p class="muted">
+              Desenvolvimento de presença profissional, comunicação e influência em comunidade, promovendo compartilhamento de conhecimento.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section">
+      <div class="section__head">
+        <h2>Projetos</h2>
+        <p>Projetos com foco em liderança técnica, dados e sistemas escaláveis.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project card">
+          <div class="project__top">
+            <h3>SisWEB MS</h3>
+            <span class="badge">Core System</span>
+          </div>
+          <p class="muted">
+            Evolução técnica e sustentação do core business com foco em estabilidade, automações e melhoria de experiência.
+          </p>
+          <div class="project__actions">
+            <a class="btn btn--ghost btn--sm" href="https://www.areadoclientems.com.br/login" target="_blank" rel="noreferrer">Link</a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <div class="project__top">
+            <h3>Elder Brain Analytics (EBA)</h3>
+            <span class="badge">People Analytics</span>
+          </div>
+          <p class="muted">
+            Plataforma analítica com relatórios e insights: automações, estrutura escalável e apoio a decisões estratégicas.
+          </p>
+          <div class="project__actions">
+            <a class="btn btn--ghost btn--sm" href="https://elderbrainanalytics.cloud" target="_blank" rel="noreferrer">Link</a>
+
+            <!-- ✅ caminho relativo (corrige Cannot GET /cv-site/...) -->
+            <a class="btn btn--primary btn--sm" href="assets/laudo_eba_exemplo.pdf" target="_blank" rel="noreferrer">
+              Ver Laudo (Exemplo)
+            </a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <div class="project__top">
+            <h3>API Pública MS</h3>
+            <span class="badge">Integrações</span>
+          </div>
+          <p class="muted">
+            Desenho e evolução de API REST com autenticação, permitindo integrações e reduzindo tarefas manuais com automações.
+          </p>
+          <div class="project__actions">
+            <a class="btn btn--ghost btn--sm" href="https://www.linkedin.com/in/andre-de-lima-miranda-borges/" target="_blank" rel="noreferrer">
+              Ver no LinkedIn
+            </a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <div class="project__top">
+            <h3>Governança e Processos</h3>
+            <span class="badge">Gestão</span>
+          </div>
+          <p class="muted">
+            Organização de rotinas, padronização operacional e documentação técnica para garantir consistência, escala e qualidade.
+          </p>
+          <div class="project__actions">
+            <a class="btn btn--ghost btn--sm" href="#contato">Contato</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section">
+    <div class="section__head">
+        <h2>Vamos Trabalhar Juntos</h2>
+    </div>
+
+  <!-- Links -->
+        <div class="card">
+        <h3>Links Profissionais</h3>
+        <p class="muted">Acesse minhas páginas oficiais:</p>
+
+        <div class="social">
+            <a class="social__item" href="https://www.linkedin.com/in/andre-de-lima-miranda-borges/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="social__item" href="https://github.com/andredelimamborges?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
+
+            <!-- ✅ e-mail correto -->
+            <a class="social__item" href="mailto:andre77llmb@gmail.com">E-mail</a>
+        </div>
+        </div>
+    </div>
+    </section>
+     
+    <footer class="footer">
+      <span class="muted">© <span id="year"></span> André Borges • CV em HTML/CSS/JS</span>
+    </footer>
+  </main>
+
+  <!-- ✅ seu arquivo é main.js -->
+  <script src="main.js"></script>
+</body>
+</html>
